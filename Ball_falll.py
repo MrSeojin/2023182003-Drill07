@@ -67,7 +67,7 @@ def reset_world():
     world.append(grass)
     team = [Boy() for i in range(11)]
     world += team
-    num = random.randint(0,20)
+    num = random.randint(1,19)
     s_balls = [SmallBall() for i in range(num)]
     b_balls = [BigBall() for i in range(20 - num)]
     world += s_balls
